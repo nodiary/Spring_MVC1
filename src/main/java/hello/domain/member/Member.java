@@ -7,14 +7,14 @@ import lombok.Setter;
 @Getter
 public class Member {
     private Long id;
-    private String name;
+    private String username;
     private int age;
 
     public Member(){
 
     }
-    public Member(String name, int age) {
-        this.name = name;
+    public Member(String username, int age) {
+        this.username = username;
         this.age = age;
     }
 }
